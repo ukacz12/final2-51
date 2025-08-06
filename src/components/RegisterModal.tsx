@@ -46,6 +46,17 @@ export const RegisterModal = ({ isOpen, onClose }: RegisterModalProps) => {
           <div className="text-center text-sm text-muted-foreground">
             ✓ Rejestracja za darmo  ✓ Bez zobowiązań  ✓ Anuluj kiedy chcesz
           </div>
+          
+          <div className="text-center mt-4">
+            <a 
+              href="https://google.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary/80 underline text-sm transition-colors duration-200"
+            >
+              Odwiedź Google
+            </a>
+          </div>
         </div>
       </DialogContent>
     </Dialog>
