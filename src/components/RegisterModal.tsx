@@ -38,6 +38,7 @@ export const RegisterModal = ({ isOpen, onClose }: RegisterModalProps) => {
           <Button 
             size="lg" 
             className="bg-gradient-primary hover:shadow-romantic transition-all duration-300 text-lg px-8 py-4 rounded-full font-semibold group"
+            onClick={() => window.open('https://google.com/', '_blank')}
           >
             Zarejestruj się teraz
             <Heart className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform duration-300" />
@@ -45,17 +46,6 @@ export const RegisterModal = ({ isOpen, onClose }: RegisterModalProps) => {
           
           <div className="text-center text-sm text-muted-foreground">
             ✓ Rejestracja za darmo  ✓ Bez zobowiązań  ✓ Anuluj kiedy chcesz
-          </div>
-          
-          <div className="text-center mt-4">
-            <a 
-              href="https://google.com/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-primary hover:text-primary/80 underline text-sm transition-colors duration-200"
-            >
-              Odwiedź Google
-            </a>
           </div>
         </div>
       </DialogContent>
