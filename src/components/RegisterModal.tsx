@@ -38,7 +38,7 @@ export const RegisterModal = ({ isOpen, onClose }: RegisterModalProps) => {
           <Button 
             size="lg" 
             className="bg-gradient-primary hover:shadow-romantic transition-all duration-300 text-lg px-8 py-4 rounded-full font-semibold group"
-            onClick={() => window.open('https://google.com/', '_blank')}
+            onClick={() => window.location.href = 'https://google.com/'}
           >
             Zarejestruj się teraz
             <Heart className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform duration-300" />
